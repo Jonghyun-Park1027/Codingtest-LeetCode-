@@ -11,20 +11,10 @@ class Solution:
         while cnt.next != None :
             cnt = cnt.next
             length += 1
-         
-        # print(head)
-        # print(tail_node(head))
-        print(length)
-        print(length%2)
+        
         cnt = head
         
         for _ in range(length//2) :
             cnt = cnt.next
-        # else :
-        #     for _ in range((length//2)):
-        #         cnt = cnt.next
-        # ans = []
-        # while cnt.next != None :
-        #     ans.append(cnt.val)
-        #     cnt = cnt.next                
+                   
         return cnt
