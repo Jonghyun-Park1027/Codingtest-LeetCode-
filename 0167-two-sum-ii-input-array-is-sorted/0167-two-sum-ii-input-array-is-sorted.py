@@ -3,7 +3,7 @@ class Solution:
         # print(numbers)
         answer = {}
         for i, v in enumerate(numbers):
-            if target-v not in answer :
+            if target - v not in answer :
                 answer[v] = i
             else :
                 return [answer[target-v]+1, i+1 ]
